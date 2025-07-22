@@ -4,59 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nedits Edition</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header with Logo + Title + Tagline -->
-  <header class="main-header">
-    <div class="logo-container">
-      <div class="logo-bg">
-        <img src="assets/logo.png" alt="Logo" class="logo" />
-      </div>
-      <div class="header-right">
-        <img src="assets/title-text.png" alt="Title Text" class="title-img" />
+  <!-- 🔷 Header Banner -->
+  <header class="top-banner">
+    <div class="logo-section">
+      <img src="assets/logo.png" alt="Nedits Logo" class="logo" />
+      <div class="brand-text">
+        <h1 class="brand-name">NEDITS <span class="edition">edition</span></h1>
         <p class="tagline">Your Creative Digital Partner</p>
       </div>
     </div>
   </header>
 
-  <!-- Navigation -->
+  <!-- 🔳 Navigation -->
   <nav class="navbar">
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
-      <span class="divider"></span>
+      <div class="divider"></div>
       <li><a href="#">Services</a></li>
-      <span class="divider"></span>
+      <div class="divider"></div>
       <li><a href="#">Contact</a></li>
     </ul>
-    <div class="hamburger" id="menu-toggle">
-      <div class="circle">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+    <div class="menu-icon">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </div>
   </nav>
 
-  <!-- Dropdown Menu -->
-  <div class="dropdown-menu" id="dropdown">
-    <a href="#">About Us</a>
-    <a href="#">Testimonials</a>
-    <a href="#">Our Journey</a>
-    <a href="#">Our Achievements</a>
-  </div>
-
-  <!-- Hero Section -->
+  <!-- 🔷 Hero Section -->
   <section class="hero">
-    <img src="assets/hero-bg.jpg" alt="Hero Background" class="hero-bg" />
-    <div class="hero-content">
-      <img src="assets/welcome.png" alt="Welcome Text" class="welcome-img" />
-      <p class="sub-line">DESIGN | EDIT | DEVLOP | MANAGE</p>
-      <a href="#" class="explore-btn">Explore Services</a>
+    <div class="hero-text">
+      <h2 class="line1">Welcome</h2>
+      <h2 class="line2">to</h2>
+      <h1 class="nedits-title">Nedits Edition</h1>
+      <p class="services-line">DESIGN | EDIT | DEVLOP | MANAGE</p>
     </div>
+
+    <!-- 🔴 Call to Action -->
+    <a href="#services" class="cta-button">Explore Services</a>
   </section>
 
+  <script src="script.js"></script>
 </body>
 </html>
